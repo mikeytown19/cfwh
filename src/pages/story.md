@@ -1,48 +1,50 @@
 ---
-title: Story About the Book
+title: About our journey
 seo:
-  title: Story About the Book
+  title: About our journey
   description: This is the about page
   extra:
     - name: 'og:type'
       value: website
       keyName: property
     - name: 'og:title'
-      value: Story About the Book
+      value: About our story
       keyName: property
     - name: 'og:description'
       value: This is the about page
       keyName: property
     - name: 'og:image'
-      value: images/story.jpg
+      value: images/whcf10.jpg
       keyName: property
       relativeUrl: true
     - name: 'twitter:card'
       value: summary_large_image
     - name: 'twitter:title'
-      value: Story About the Book
+      value: About our story
     - name: 'twitter:description'
       value: This is the about page
     - name: 'twitter:image'
-      value: images/story.jpg
+      value: images/whcf10.jpg
       relativeUrl: true
 template: page
 ---
 
-In the past, whenever a young man or woman wanted to be great at something, they would look to learn it from a master. This is how apprenticeships started, nowadays known as internships. Even when universities, colleges and educational institutions mushroomed all over the world, people still seek the guidance of a mentor to help them achieve their full potential and teach them tricks of the trade along the way.
+Ad minim nisi duis cupidatat velit sit nulla nisi culpa ad enim. Sit nostrud deserunt adipisicing anim do non deserunt in quis labore veniam adipisicing. Ex est in consequat cupidatat ullamco pariatur Lorem. Lorem ut occaecat excepteur aliquip. Proident non duis ea qui aute mollit sint eu. In id ullamco consectetur reprehenderit anim commodo proident dolor Lorem enim mollit ut duis.
 
-## Digital Age Mentorship
+## Where we come from
 
-![](/images/story.jpg)
+![](/images/whcf10.jpg)
 
-Fast forward to the 2000s, and you'll find that less people are willing to dedicate their time to help young professionals grow, and fewer novices know to reach out and ask.
+Lorem ut occaecat excepteur aliquip. Proident non duis ea qui aute mollit sint eu. In id ullamco consectetur reprehenderit anim commodo proident dolor Lorem enim mollit ut duis.
+
 
 > Everything of value that I learned in my career, came from other people's stories and experience.”
 
-This is why I decided to create a practical guide that would serve as an internship for those who want to excel in marketing. Instead of looking for a mentor, students and young marketers can read all the wealth of knowledge I acquired throught the years and digest it at their pace.
+Ad minim nisi duis cupidatat velit sit nulla nisi culpa ad enim. Sit nostrud deserunt adipisicing anim do non deserunt in quis labore veniam adipisicing. Ex est in consequat cupidatat ullamco pariatur Lorem. Lorem ut occaecat excepteur aliquip. Proident non duis ea qui aute mollit sint eu. In id ullamco consectetur reprehenderit anim commodo proident dolor Lorem enim mollit ut duis.
+
 
 ## Hands On Practice
 
 There's nothing like trying things out for yourself.
 
-In my book, you will find countless guides, tutorials, walk throughs, worksheets and collateral starters, to help you roll up your sleeves and apply your learnings. We even offer 1hr consultations by seasoned professionals, monthly webinars, and live Q&A sessions to help you hone in on the topics that are most relevant to your work.
+Ad minim nisi duis cupidatat velit sit nulla nisi culpa ad enim. Sit nostrud deserunt adipisicing anim do non deserunt in quis labore veniam adipisicing. Ex est in consequat cupidatat ullamco pariatur Lorem. Lorem ut occaecat excepteur aliquip. Proident non duis ea qui aute mollit sint eu. In id ullamco consectetur reprehenderit anim commodo proident dolor Lorem enim mollit ut duis.

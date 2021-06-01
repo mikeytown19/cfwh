@@ -1,12 +1,12 @@
 {
     "layout_type": "full-width",
     "style": "bold",
-    "palette": "red",
+    "palette": "blue",
     "mode": "light",
     "base_font": "sans-serif",
     "header": {
         "title": "Marketing Playbook",
-        "logo": "images/logo.svg",
+        "logo": "images/nav-logo.png",
         "logo_alt": "Marketing Playbook logo",
         "has_primary_nav": true,
         "primary_nav_links": [
@@ -29,7 +29,7 @@
         "has_secondary_nav": true,
         "secondary_nav_links": [
             {
-                "label": "Start Learning",
+                "label": "Contact Us",
                 "url": "/thank-you",
                 "style": "primary"
             }
@@ -42,7 +42,7 @@
         "anncmnt_id": "new-features"
     },
     "footer": {
-        "logo": "images/logo.svg",
+        "logo": "images/nav-logo.png",
         "logo_alt": "Marketing Playbook logo",
         "has_primary_nav": true,
         "primary_nav_title": "Company",
