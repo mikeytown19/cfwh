@@ -22,9 +22,13 @@ export default class CtaSection extends React.Component {
         let actions_pos = _.get(section, 'actions_position', null) || 'bottom';
         let is_horiz = false;
         let is_vert = false;
-        if ((_.get(section, 'title', null) || _.get(section, 'content', null))) {
+        let is_hero = false;
+        if ((_.get(section, 'title', null) || _.get(section, 'content', null) || _.get(section, 'subtitle', null))) {
              has_text = true;
         }
+        if (_.get(section, 'hero', null)) {
+          is_hero = true;
+          }
         if (_.get(section, 'actions', null)) {
              has_actions = true;
         }
@@ -39,7 +43,7 @@ export default class CtaSection extends React.Component {
         }
         return (
             <React.Fragment>
-                <section className={classNames('section', 'cta', {'has-border': _.get(section, 'has_border', null), 'has-cover': _.get(section, 'background_image', null), 'bg-none': bg_color === 'none', 'bg-primary': bg_color === 'primary', 'bg-secondary': bg_color === 'secondary', 'pt-4': padding_top === 'small', 'pt-6': (padding_top === 'medium') || (padding_top === 'large'), 'pt-md-7': padding_top === 'large', 'pb-4': padding_bottom === 'small', 'pb-6': (padding_bottom === 'medium') || (padding_bottom === 'large'), 'pb-md-7': padding_bottom === 'large'})}>
+                <section className={classNames('section', 'cta', {'has-border': _.get(section, 'has_border', null), 'has-cover': _.get(section, 'background_image', null), 'bg-none': bg_color === 'none', 'bg-dark': bg_color === 'dark', 'bg-primary': bg_color === 'primary', 'bg-secondary': bg_color === 'secondary', 'pt-4': padding_top === 'small', 'pt-6': (padding_top === 'medium') || (padding_top === 'large'), 'pt-md-7': padding_top === 'large', 'pb-4': padding_bottom === 'small', 'pb-6': (padding_bottom === 'medium') || (padding_bottom === 'large'), 'pb-md-7': padding_bottom === 'large'})}>
                 	{_.get(section, 'background_image', null) && (
                 	<div className="cover-img" style={toStyleObj('background-image: url(\'' + withPrefix(_.get(section, 'background_image', null)) + '\'); opacity: ' + bg_img_opacity + '; background-size: ' + bg_img_size + '; background-repeat: ' + bg_img_repeat + '; background-position: ' + bg_img_position)}/>
                 	)}
@@ -48,7 +52,11 @@ export default class CtaSection extends React.Component {
                 			{has_text && (
                 			<div className={classNames('cta__body', 'my-1', 'cell-12', {'cell-md-7': (is_horiz && has_actions) && (actions_width === 'fourty'), 'cell-md-6': (is_horiz && has_actions) && (actions_width === 'fifty'), 'cell-md-5': (is_horiz && has_actions) && (actions_width === 'sixty'), 'text-center': align_x === 'center', 'text-right': align_x === 'right'})}>
                 				{_.get(section, 'title', null) && (
-                				<h1 className="cta__title">{_.get(section, 'title', null)}</h1>
+                				<h1 className={classNames('cta__title', {'cta__hero_title': is_hero})}>{_.get(section, 'title', null)}</h1>
+                				)}
+
+                                   {_.get(section, 'subtitle', null) && (
+                				<h3 className="cta__subttitle">{_.get(section, 'subtitle', null)}</h3>
                 				)}
                 				{_.get(section, 'content', null) && (
                 				<div className="cta__copy">

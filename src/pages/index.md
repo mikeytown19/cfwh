@@ -3,7 +3,7 @@ title: Home
 sections:
   - type: cta_section
     title: West Haven Crossfit
-    content: Train - Motivate - Inspire
+    subtitle: Train - Motivate - Inspire
     actions:
       - label: Come Try Today
         url: /pricing
@@ -12,11 +12,12 @@ sections:
     align: center
     padding_top: large
     padding_bottom: large
-    background_color: primary
-    background_image: images/whcf2.jpg
+    background_color: dark
+    background_image: images/whcf11.jpg
     background_image_repeat: no-repeat
     background_image_size: cover
-    background_image_opacity: 20
+    background_image_opacity: 10
+    hero: true
   - type: hero_section
     title: West Haven Crossfit
     subtitle: Train - Motivate - Inspire
