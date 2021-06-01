@@ -1,9 +1,9 @@
 {
-    "layout_type": "boxed",
-    "style": "classic",
-    "palette": "gray",
+    "layout_type": "full-width",
+    "style": "bold",
+    "palette": "red",
     "mode": "light",
-    "base_font": "serif",
+    "base_font": "sans-serif",
     "header": {
         "title": "Marketing Playbook",
         "logo": "images/logo.svg",
@@ -119,5 +119,6 @@
         ],
         "content": "&copy; Stackbit. All rights reserved. This Jamstack site was created with <a href=\"https://www.stackbit.com/?utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">Stackbit</a>. Create yours <a href=\"https://app.stackbit.com/create?theme=book&utm_source=deployed-footer\" target=\"_blank\" rel=\"noopener\">now</a>"
     },
-    "title": "Stackbit Book Theme"
+    "title": "Stackbit Book Theme",
+    "domain": "https://cfwh-66c3f.netlify.app"
 }
