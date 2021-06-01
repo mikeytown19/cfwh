@@ -260,6 +260,7 @@ sections:
 seo:
   title: West Haven Crossfit
   description: West Haven Crossfit
+  extra:
     - name: 'og:type'
       value: website
       keyName: property
