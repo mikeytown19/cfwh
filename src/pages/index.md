@@ -21,8 +21,14 @@ sections:
   - type: hero_section
     title: West Haven Crossfit
     subtitle: Train - Motivate - Inspire
-    content: |-
-      Elit esse quis do magna anim Lorem excepteur in in ex minim eiusmod officia esse. Deserunt duis eu dolore commodo. Consequat Lorem mollit eiusmod non. Pariatur consequat deserunt ad labore qui irure nisi laboris eiusmod ex amet. Eiusmod sunt aute exercitation sunt sint sit aute et ullamco quis adipisicing id. Qui tempor sint ex sint pariatur veniam esse. In culpa ea sunt magna sint tempor in irure laboris sint culpa ullamco laborum.
+    content: >-
+      Elit esse quis do magna anim Lorem excepteur in in ex minim eiusmod
+      officia esse. Deserunt duis eu dolore commodo. Consequat Lorem mollit
+      eiusmod non. Pariatur consequat deserunt ad labore qui irure nisi laboris
+      eiusmod ex amet. Eiusmod sunt aute exercitation sunt sint sit aute et
+      ullamco quis adipisicing id. Qui tempor sint ex sint pariatur veniam esse.
+      In culpa ea sunt magna sint tempor in irure laboris sint culpa ullamco
+      laborum.
     actions:
       - label: Join Now
         url: /pricing
@@ -38,34 +44,6 @@ sections:
     padding_top: large
     padding_bottom: large
     background_color: none
-  # - type: grid_section
-  #   title: 'Read by marketers at:'
-  #   align: center
-  #   grid_items:
-  #     - image: images/logo-1.svg
-  #       image_alt: Logo 1
-  #       image_align: center
-  #     - image: images/logo-2.svg
-  #       image_alt: Logo 2
-  #       image_align: center
-  #     - image: images/logo-3.svg
-  #       image_alt: Logo 3
-  #       image_align: center
-  #     - image: images/logo-4.svg
-  #       image_alt: Logo 4
-  #       image_align: center
-  #     - image: images/logo-5.svg
-  #       image_alt: Logo 5
-  #       image_align: center
-  #     - image: images/logo-6.svg
-  #       image_alt: Logo 6
-  #       image_align: center
-  #     - image: images/logo-7.svg
-  #       image_alt: Logo 7
-  #       image_align: center
-  #   grid_cols: four
-  #   grid_gap_horiz: medium
-  #   grid_gap_vert: medium
   - type: features_section
     features:
       - title: Hands-On Workshops
@@ -96,8 +74,7 @@ sections:
       - title: |-
           “Qui quis deserunt eu eiusmod ut non et nulla laboris ex consectetur
           in.”
-        subtitle: 'Lindsay Hassel - Crossfit trainer'
-
+        subtitle: Lindsay Hassel - Crossfit trainer
     feature_padding_vert: small
     background_color: primary
     background_image: images/whcf2.jpg
@@ -257,6 +234,36 @@ sections:
     background_image_repeat: no-repeat
     background_image_size: cover
     background_image_opacity: 40
+  - title: lorem-ipsum
+    subtitle: lorem-ipsum
+    content: >-
+      ## Lorem ipsum
+
+
+      Lorem ipsum dolor sit amet, **consectetur adipiscing elit**, sed do
+      eiusmod tempor incididunt ut labore et dolore magna aliqua.
+
+
+      - Lorem ipsum
+
+      - dolor sit amet
+    actions: []
+    image_alt: lorem-ipsum
+    video_embed_html: >-
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua.
+    media_position: top
+    media_width: fifty
+    align: left
+    padding_top: medium
+    padding_bottom: medium
+    has_border: false
+    background_color: none
+    background_image_opacity: 0
+    background_image_size: cover
+    background_image_position: center center
+    background_image_repeat: no-repeat
+    type: hero_section
 seo:
   title: West Haven Crossfit
   description: West Haven Crossfit
