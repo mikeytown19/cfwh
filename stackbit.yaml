@@ -448,6 +448,7 @@ models:
             - blog_feed_section
             - cta_section
             - form_section
+            - custom_section
       - type: model
         name: seo
         models:
