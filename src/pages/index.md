@@ -233,6 +233,7 @@ sections:
     background_image_repeat: no-repeat
     background_image_size: cover
     background_image_opacity: 40
+    background_image: images/whcf9.jpg
 seo:
   title: West Haven Crossfit
   description: West Haven Crossfit
