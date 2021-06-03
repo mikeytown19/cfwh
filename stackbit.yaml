@@ -1679,7 +1679,7 @@ models:
             - type: boolean
               name: relativeUrl
 
-  Custom_Section:
+  custom_section:
     type: object
     label: CTA section
     labelField: title
